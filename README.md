@@ -1,4 +1,4 @@
-# SPectre gRPC interface
+# Spectre gRPC interface
 
 Spectre gRPC module is a basic request/response wrapper for interfacing with [Spectred](https://github.com/spectre-project/spectred)
 
