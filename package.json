@@ -15,7 +15,8 @@
   "license": "ISC",
   "scripts": {
     "watch": "tsc --watch",
-    "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev && tsc"
+    "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev && tsc",
+    "prepare": "tsc"
   },
   "dependencies": {
     "@grpc/grpc-js": "*",
